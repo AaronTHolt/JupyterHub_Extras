@@ -1,0 +1,98 @@
+2016-01-11 13:22:45.459 [IPControllerApp] Hub listening on tcp://*:43541 for registration.
+2016-01-11 13:22:45.461 [IPControllerApp] Hub using DB backend: 'NoDB'
+2016-01-11 13:22:45.720 [IPControllerApp] hub::created hub
+2016-01-11 13:22:45.720 [IPControllerApp] writing connection info to /curc/tools/x86_64/rh6/software/python_packages/3.4.3/intel/15.0.2/jupyterhub/0.2.0/Ipython/profile_slurm_04/security/ipcontroller-client.json
+2016-01-11 13:22:45.726 [IPControllerApp] writing connection info to /curc/tools/x86_64/rh6/software/python_packages/3.4.3/intel/15.0.2/jupyterhub/0.2.0/Ipython/profile_slurm_04/security/ipcontroller-engine.json
+2016-01-11 13:22:45.731 [IPControllerApp] task::using Python leastload Task scheduler
+2016-01-11 13:22:45.731 [IPControllerApp] Heartmonitor started
+2016-01-11 13:22:45.740 [IPControllerApp] Creating pid file: /curc/tools/x86_64/rh6/software/python_packages/3.4.3/intel/15.0.2/jupyterhub/0.2.0/Ipython/profile_slurm_04/pid/ipcontroller.pid
+2016-01-11 13:22:45.747 [IPControllerApp] client::client b'\x00\xba\xb4\xd8/' requested 'connection_request'
+2016-01-11 13:22:45.747 [IPControllerApp] client::client [b'\x00\xba\xb4\xd8/'] connected
+2016-01-11 13:22:53.465 [IPControllerApp] client::client b'af2f7e83-00a8-4028-9d09-78b99d0a02ea' requested 'registration_request'
+2016-01-11 13:22:53.466 [IPControllerApp] client::client b'5873bfec-a8ff-4311-8b24-3a4afc18f4e9' requested 'registration_request'
+2016-01-11 13:22:53.467 [IPControllerApp] client::client b'545abda9-461a-4f72-9dc5-955544c0108b' requested 'registration_request'
+2016-01-11 13:22:54.457 [IPControllerApp] client::client b'83dde71e-1585-40bb-8bd5-8ff8218fdece' requested 'registration_request'
+2016-01-11 13:22:57.122 [IPControllerApp] client::client b'd80529d7-d064-4bab-9b49-fa51c91fc55a' requested 'registration_request'
+2016-01-11 13:22:57.123 [IPControllerApp] client::client b'db714010-7b37-4caa-847d-8ab2f1b20d0b' requested 'registration_request'
+2016-01-11 13:22:57.124 [IPControllerApp] client::client b'650d2028-c49b-4153-8876-423fc59ef735' requested 'registration_request'
+2016-01-11 13:22:57.731 [IPControllerApp] registration::finished registering engine 2:545abda9-461a-4f72-9dc5-955544c0108b
+2016-01-11 13:22:57.732 [IPControllerApp] engine::Engine Connected: 2
+2016-01-11 13:22:57.738 [IPControllerApp] registration::finished registering engine 0:af2f7e83-00a8-4028-9d09-78b99d0a02ea
+2016-01-11 13:22:57.738 [IPControllerApp] engine::Engine Connected: 0
+2016-01-11 13:22:57.743 [IPControllerApp] registration::finished registering engine 1:5873bfec-a8ff-4311-8b24-3a4afc18f4e9
+2016-01-11 13:22:57.743 [IPControllerApp] engine::Engine Connected: 1
+2016-01-11 13:22:57.747 [IPControllerApp] registration::finished registering engine 3:83dde71e-1585-40bb-8bd5-8ff8218fdece
+2016-01-11 13:22:57.747 [IPControllerApp] engine::Engine Connected: 3
+2016-01-11 13:22:57.859 [IPControllerApp] client::client b'ecf658ce-0504-4be2-a60a-177dcad971a5' requested 'registration_request'
+2016-01-11 13:22:57.860 [IPControllerApp] client::client b'358abb01-a83c-4a5e-898c-7c7857d57931' requested 'registration_request'
+2016-01-11 13:22:57.861 [IPControllerApp] client::client b'1fac2b70-a539-4899-9d7f-43e9f339e8e2' requested 'registration_request'
+2016-01-11 13:22:58.114 [IPControllerApp] client::client b'5889acd4-2045-46b1-94d4-7f0f2aabbc1f' requested 'registration_request'
+2016-01-11 13:22:58.851 [IPControllerApp] client::client b'c5d1904e-92fc-4313-8cfb-98104d715998' requested 'registration_request'
+2016-01-11 13:23:00.733 [IPControllerApp] registration::finished registering engine 4:d80529d7-d064-4bab-9b49-fa51c91fc55a
+2016-01-11 13:23:00.733 [IPControllerApp] engine::Engine Connected: 4
+2016-01-11 13:23:00.737 [IPControllerApp] registration::finished registering engine 5:db714010-7b37-4caa-847d-8ab2f1b20d0b
+2016-01-11 13:23:00.738 [IPControllerApp] engine::Engine Connected: 5
+2016-01-11 13:23:00.742 [IPControllerApp] registration::finished registering engine 6:650d2028-c49b-4153-8876-423fc59ef735
+2016-01-11 13:23:00.743 [IPControllerApp] engine::Engine Connected: 6
+2016-01-11 13:23:03.734 [IPControllerApp] registration::finished registering engine 7:ecf658ce-0504-4be2-a60a-177dcad971a5
+2016-01-11 13:23:03.735 [IPControllerApp] engine::Engine Connected: 7
+2016-01-11 13:23:03.738 [IPControllerApp] registration::finished registering engine 10:5889acd4-2045-46b1-94d4-7f0f2aabbc1f
+2016-01-11 13:23:03.739 [IPControllerApp] engine::Engine Connected: 10
+2016-01-11 13:23:03.744 [IPControllerApp] registration::finished registering engine 8:358abb01-a83c-4a5e-898c-7c7857d57931
+2016-01-11 13:23:03.744 [IPControllerApp] engine::Engine Connected: 8
+2016-01-11 13:23:03.748 [IPControllerApp] registration::finished registering engine 11:c5d1904e-92fc-4313-8cfb-98104d715998
+2016-01-11 13:23:03.748 [IPControllerApp] engine::Engine Connected: 11
+2016-01-11 13:23:03.753 [IPControllerApp] registration::finished registering engine 9:1fac2b70-a539-4899-9d7f-43e9f339e8e2
+2016-01-11 13:23:03.753 [IPControllerApp] engine::Engine Connected: 9
+2016-01-11 13:23:48.567 [IPControllerApp] client::client b'\x00\xba\xb4\xd80' requested 'connection_request'
+2016-01-11 13:23:48.567 [IPControllerApp] client::client [b'\x00\xba\xb4\xd80'] connected
+2016-01-11 13:23:52.330 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request '2987fde9-d823-4571-b7f5-ac1fcee6f12b' to 0
+2016-01-11 13:23:52.330 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request 'bab13793-2d05-48fe-919e-9d7457ef2eaf' to 1
+2016-01-11 13:23:52.331 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request 'aec10c5f-cd74-4c74-a3cf-3734968c7ea8' to 2
+2016-01-11 13:23:52.331 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request 'bfc3db48-c104-41ca-88b6-60efa6d56dfd' to 3
+2016-01-11 13:23:52.332 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request '55ebb31e-7bb3-4e78-9233-60ae4ea9c4a2' to 4
+2016-01-11 13:23:52.333 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request '3a143b3a-252f-4b76-b536-84ee226ebae2' to 5
+2016-01-11 13:23:52.333 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request '7b2524aa-a9e7-424c-9589-727e2aa39fa0' to 6
+2016-01-11 13:23:52.334 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request '6d86ae9c-3c9b-46c5-b27c-f10792763a0c' to 7
+2016-01-11 13:23:52.335 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request '27189832-5d68-4dfc-a4a7-4292720313a7' to 8
+2016-01-11 13:23:52.335 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request '2ab2812e-870c-463c-8a31-507ec05529cb' to 9
+2016-01-11 13:23:52.336 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request 'c2666d25-680b-422f-88fd-79aa0332918b' to 10
+2016-01-11 13:23:52.337 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request 'be46827c-6fd4-4b60-ac88-e50ada0cf0d1' to 11
+2016-01-11 13:23:52.338 [IPControllerApp] queue::request '2987fde9-d823-4571-b7f5-ac1fcee6f12b' completed on 0
+2016-01-11 13:23:52.338 [IPControllerApp] queue::request 'bab13793-2d05-48fe-919e-9d7457ef2eaf' completed on 1
+2016-01-11 13:23:52.339 [IPControllerApp] queue::request 'aec10c5f-cd74-4c74-a3cf-3734968c7ea8' completed on 2
+2016-01-11 13:23:52.340 [IPControllerApp] queue::request 'bfc3db48-c104-41ca-88b6-60efa6d56dfd' completed on 3
+2016-01-11 13:23:52.341 [IPControllerApp] queue::request '55ebb31e-7bb3-4e78-9233-60ae4ea9c4a2' completed on 4
+2016-01-11 13:23:52.342 [IPControllerApp] queue::request '3a143b3a-252f-4b76-b536-84ee226ebae2' completed on 5
+2016-01-11 13:23:52.342 [IPControllerApp] queue::request '7b2524aa-a9e7-424c-9589-727e2aa39fa0' completed on 6
+2016-01-11 13:23:52.343 [IPControllerApp] queue::request '6d86ae9c-3c9b-46c5-b27c-f10792763a0c' completed on 7
+2016-01-11 13:23:52.344 [IPControllerApp] queue::request '27189832-5d68-4dfc-a4a7-4292720313a7' completed on 8
+2016-01-11 13:23:52.345 [IPControllerApp] queue::request '2ab2812e-870c-463c-8a31-507ec05529cb' completed on 9
+2016-01-11 13:23:52.345 [IPControllerApp] queue::request 'c2666d25-680b-422f-88fd-79aa0332918b' completed on 10
+2016-01-11 13:23:52.346 [IPControllerApp] queue::request 'be46827c-6fd4-4b60-ac88-e50ada0cf0d1' completed on 11
+2016-01-11 13:23:54.176 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request '172fa302-0550-4f1d-89fb-08019eff419b' to 0
+2016-01-11 13:23:54.177 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request 'b45bda6c-f32c-413f-a5e7-a647f2caccef' to 1
+2016-01-11 13:23:54.178 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request 'b910fb1a-fe6a-4e10-aba4-1c1f43240dc1' to 2
+2016-01-11 13:23:54.179 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request '7aaacd57-8ccc-4e9d-a750-9b60919c3324' to 3
+2016-01-11 13:23:54.180 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request 'c7b35f47-1d33-4a45-8ead-a7b7728bf57c' to 4
+2016-01-11 13:23:54.181 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request 'e5dfbdac-62d6-40d5-ba98-4cfd518c40f8' to 5
+2016-01-11 13:23:54.182 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request '04f212ed-2a0e-4106-afd3-cfeec5ff456c' to 6
+2016-01-11 13:23:54.183 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request 'fc20a7de-eb80-47de-849a-6a5776e6debe' to 7
+2016-01-11 13:23:54.184 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request 'bd2ff78b-2779-4f79-a16b-8e6aa72c92cd' to 8
+2016-01-11 13:23:54.185 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request '11bf63a5-d2bb-4ca6-95fc-1868478fe5d7' to 9
+2016-01-11 13:23:54.186 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request '3fde2919-0f90-4fd4-a3c0-0868718e5440' to 10
+2016-01-11 13:23:54.187 [IPControllerApp] queue::client b'\x00\xe4\x03#}' submitted request '8fe61f75-25c9-4d1b-ae63-8a66d124a9bb' to 11
+2016-01-11 13:23:54.213 [IPControllerApp] queue::request 'b45bda6c-f32c-413f-a5e7-a647f2caccef' completed on 1
+2016-01-11 13:23:54.214 [IPControllerApp] queue::request 'b910fb1a-fe6a-4e10-aba4-1c1f43240dc1' completed on 2
+2016-01-11 13:23:54.214 [IPControllerApp] queue::request '7aaacd57-8ccc-4e9d-a750-9b60919c3324' completed on 3
+2016-01-11 13:23:54.215 [IPControllerApp] queue::request '172fa302-0550-4f1d-89fb-08019eff419b' completed on 0
+2016-01-11 13:23:54.216 [IPControllerApp] queue::request '3fde2919-0f90-4fd4-a3c0-0868718e5440' completed on 10
+2016-01-11 13:23:54.217 [IPControllerApp] queue::request 'e5dfbdac-62d6-40d5-ba98-4cfd518c40f8' completed on 5
+2016-01-11 13:23:54.217 [IPControllerApp] queue::request '04f212ed-2a0e-4106-afd3-cfeec5ff456c' completed on 6
+2016-01-11 13:23:54.218 [IPControllerApp] queue::request 'c7b35f47-1d33-4a45-8ead-a7b7728bf57c' completed on 4
+2016-01-11 13:23:54.219 [IPControllerApp] queue::request '8fe61f75-25c9-4d1b-ae63-8a66d124a9bb' completed on 11
+2016-01-11 13:23:54.220 [IPControllerApp] queue::request '11bf63a5-d2bb-4ca6-95fc-1868478fe5d7' completed on 9
+2016-01-11 13:23:54.220 [IPControllerApp] queue::request 'fc20a7de-eb80-47de-849a-6a5776e6debe' completed on 7
+2016-01-11 13:23:54.221 [IPControllerApp] queue::request 'bd2ff78b-2779-4f79-a16b-8e6aa72c92cd' completed on 8
+2016-01-11 13:23:56.778 [IPControllerApp] CRITICAL | Received signal 2, shutting down
+2016-01-11 13:23:56.779 [IPControllerApp] CRITICAL | terminating children...

@@ -1,0 +1,34 @@
+2016-01-11 14:05:59.491 [IPControllerApp] Hub listening on tcp://*:34645 for registration.
+2016-01-11 14:05:59.493 [IPControllerApp] Hub using DB backend: 'NoDB'
+2016-01-11 14:05:59.757 [IPControllerApp] hub::created hub
+2016-01-11 14:05:59.757 [IPControllerApp] writing connection info to /curc/tools/x86_64/rh6/software/python_packages/3.4.3/intel/15.0.2/jupyterhub/0.2.0/Ipython/profile_slurm_04/security/ipcontroller-client.json
+2016-01-11 14:05:59.764 [IPControllerApp] writing connection info to /curc/tools/x86_64/rh6/software/python_packages/3.4.3/intel/15.0.2/jupyterhub/0.2.0/Ipython/profile_slurm_04/security/ipcontroller-engine.json
+2016-01-11 14:05:59.770 [IPControllerApp] task::using Python leastload Task scheduler
+2016-01-11 14:05:59.770 [IPControllerApp] Heartmonitor started
+2016-01-11 14:05:59.781 [IPControllerApp] Creating pid file: /curc/tools/x86_64/rh6/software/python_packages/3.4.3/intel/15.0.2/jupyterhub/0.2.0/Ipython/profile_slurm_04/pid/ipcontroller.pid
+2016-01-11 14:05:59.786 [IPControllerApp] client::client b'\x00\xdao\xd3Q' requested 'connection_request'
+2016-01-11 14:05:59.786 [IPControllerApp] client::client [b'\x00\xdao\xd3Q'] connected
+2016-01-11 14:06:09.249 [IPControllerApp] client::client b'646f6a2e-a013-4695-92fc-90d33edcc730' requested 'registration_request'
+2016-01-11 14:06:09.250 [IPControllerApp] client::client b'05f72ade-486c-4e01-bc48-548fd32b39c1' requested 'registration_request'
+2016-01-11 14:06:09.251 [IPControllerApp] client::client b'fddf140f-b0aa-4314-8459-005e0e9f446b' requested 'registration_request'
+2016-01-11 14:06:10.236 [IPControllerApp] client::client b'2b2491b8-7f10-4814-9f0f-8be3f28bfa5e' requested 'registration_request'
+2016-01-11 14:06:10.791 [IPControllerApp] client::client b'1c3f19a3-5423-41e0-b656-86598fac8727' requested 'registration_request'
+2016-01-11 14:06:10.792 [IPControllerApp] client::client b'3a76b326-18cc-4f08-957c-38f7ed0c6b6b' requested 'registration_request'
+2016-01-11 14:06:10.793 [IPControllerApp] client::client b'a68a9fda-f072-40fd-9ad7-f74122a71cea' requested 'registration_request'
+2016-01-11 14:06:11.783 [IPControllerApp] client::client b'1d141032-59b8-475a-88b0-efd4224127cb' requested 'registration_request'
+2016-01-11 14:06:14.772 [IPControllerApp] registration::finished registering engine 2:fddf140f-b0aa-4314-8459-005e0e9f446b
+2016-01-11 14:06:14.773 [IPControllerApp] engine::Engine Connected: 2
+2016-01-11 14:06:14.779 [IPControllerApp] registration::finished registering engine 1:05f72ade-486c-4e01-bc48-548fd32b39c1
+2016-01-11 14:06:14.779 [IPControllerApp] engine::Engine Connected: 1
+2016-01-11 14:06:14.783 [IPControllerApp] registration::finished registering engine 3:2b2491b8-7f10-4814-9f0f-8be3f28bfa5e
+2016-01-11 14:06:14.783 [IPControllerApp] engine::Engine Connected: 3
+2016-01-11 14:06:14.787 [IPControllerApp] registration::finished registering engine 6:a68a9fda-f072-40fd-9ad7-f74122a71cea
+2016-01-11 14:06:14.787 [IPControllerApp] engine::Engine Connected: 6
+2016-01-11 14:06:14.790 [IPControllerApp] registration::finished registering engine 4:1c3f19a3-5423-41e0-b656-86598fac8727
+2016-01-11 14:06:14.790 [IPControllerApp] engine::Engine Connected: 4
+2016-01-11 14:06:14.793 [IPControllerApp] registration::finished registering engine 5:3a76b326-18cc-4f08-957c-38f7ed0c6b6b
+2016-01-11 14:06:14.794 [IPControllerApp] engine::Engine Connected: 5
+2016-01-11 14:06:14.797 [IPControllerApp] registration::finished registering engine 0:646f6a2e-a013-4695-92fc-90d33edcc730
+2016-01-11 14:06:14.797 [IPControllerApp] engine::Engine Connected: 0
+2016-01-11 14:06:15.574 [IPControllerApp] CRITICAL | Received signal 2, shutting down
+2016-01-11 14:06:15.574 [IPControllerApp] CRITICAL | terminating children...
