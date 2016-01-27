@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Aaron Holt
+# A script for Jupyter 2 that copies default ipython parallel configuration files and directories
+# to a default location.
+
 ipythonDir="/home/$USER/.ipython.rc"
 configDir="/curc/tools/x86_64/rh6/software/python_packages/3.4.3/intel/15.0.2/jupyterhub/0.2.0/Ipython"
 
