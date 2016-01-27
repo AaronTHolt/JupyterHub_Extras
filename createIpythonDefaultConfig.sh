@@ -21,14 +21,13 @@ else
     #directory doesn't exist, create it, copy config
     if mkdir $ipythonDir; then
         echo "Directory successfully created"
+        #Copy ipython config files
+        if cp -rn $configDir/* $ipythonDir/; then
+            echo "Files successfully copied"
+        else 
+            echo "File copy failed" 
+        fi
     else 
         echo "Directory creation failed" 
-    fi
-
-    #Copy ipython config files
-    if cp -rn $configDir/* $ipythonDir/; then
-        echo "Files successfully copied"
-    else 
-        echo "File copy failed" 
     fi
 fi
