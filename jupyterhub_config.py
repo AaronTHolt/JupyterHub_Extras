@@ -22,6 +22,16 @@
 c = get_config()
 c.JupyterHub.spawner_class = 'slurmspawner.SlurmSpawner'
 
+# Slurm SBATCH settings for the internally-created launch script.
+# Extra functionality for your SlurmSpawner can be added through a script pointed to by c.SlurmSpawner.extra_launch_script
+c.SlurmSpawner.job_name = "jupyterhub-singleuser"
+c.SlurmSpawner.partition = 'janus'
+c.SlurmSpawner.time = "24:00:00" # Slurm-style time dd-hh:mm:ss
+c.SlurmSpawner.qos = "janus"  # this must exist or jupyterhub will fail to start
+c.SlurmSpawner.output = "jhub-spawner.log" # this file/dir is appended to /home/$USER/
+#Add extra luanch script which adds environment variables and loads modules
+c.SlurmSpawner.extra_launch_script = "/etc/jupyterhub/extra_launch.sh"
+
 # The Logging format template
 # c.Application.log_format = '[%(name)s]%(highlevel)s %(message)s'
 
