@@ -24,7 +24,6 @@ class SLURMLauncher(launcher.BatchSystemLauncher):
 
 class SLURMEngineSetLauncher(SLURMLauncher, launcher.BatchClusterAppMixin):
     """Custom launcher handling heterogeneous clusters on SLURM
-    Launches with 4 tasks per node
     """
     batch_file_name = Unicode("SLURM_engine" + str(uuid.uuid4()))
     mem = traitlets.Unicode("", config=True)
@@ -32,12 +31,14 @@ class SLURMEngineSetLauncher(SLURMLauncher, launcher.BatchClusterAppMixin):
     resources = traitlets.Unicode("", config=True)
     default_template = traitlets.Unicode("""#!/bin/sh
 #SBATCH --partition=janus
-#SBATCH --output=/dev/null
+#SBATCH --output=/home/$USER
 #SBATCH -N {n}
 #SBATCH --ntasks-per-node=4
 #SBATCH --time=24:00:00
 #SBATCH --export=ALL
 #SBATCH --qos=janus
+
+echo {n}
 
 cd {profile_dir}
 mpirun -n {n*4} ipengine --profile-dir={profile_dir}
@@ -48,6 +49,4 @@ mpirun -n {n*4} ipengine --profile-dir={profile_dir}
         self.context["resources"] = "\n".join(["#SBATCH --%s" % r.strip()
                                                for r in str(self.resources).split(";")
                                                if r.strip()])
-        #math.ceil(n/4) requests the appropriate number of nodes for 4-tasks-per-node
-        #Ex: 4 total tasks = 1 node. 5 total tasks = 2 nodes etc.
         return super(SLURMEngineSetLauncher, self).start(math.ceil(n/4))

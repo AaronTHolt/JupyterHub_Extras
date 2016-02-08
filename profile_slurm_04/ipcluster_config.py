@@ -2,7 +2,9 @@
 
 #Enable custom slurm launcher
 import sys
-sys.path.append('/curc/tools/x86_64/rh6/software/python_packages/3.4.3/intel/15.0.2/jupyterhub/0.2.0/Ipython/profile_slurm_04')
+import os
+sys.path.append(os.environ['IPYTHONDIR'])
+sys.path.append(os.environ['IPYTHONDIR'] + '/profile_slurm_04')
 import slurm_04
 c = get_config()
 c.IPClusterStart.controller_launcher_class = 'Local'
