@@ -6,6 +6,7 @@ ml python/3.4.3
 ml ipyparallel/4.1.0
 ml nodejs/4.2.4
 ml jupyterhub/0.4.0
+ml slurmspawner/master
 ml mpi4py/1.3.1
 
 export HOME=/home/$USER
