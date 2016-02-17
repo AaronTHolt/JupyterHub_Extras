@@ -19,7 +19,7 @@ export configDir
 $CURC_JUPYTERHUB_ROOT/Ipython/copyIpythonDefaultConfig.sh
 
 export JPY_COOKIE_SECRET=/srv/jupyterhub/jupyterhub_cookie_secret
-export CONFIGPROXY_AUTH_TOKEN=/etc/jupyterhub/jupyter.rc.int.colorado.edu.crt
+export CONFIGPROXY_AUTH_TOKEN=/curc/tools/x86_64/rh6/software/python_packages/3.4.3/intel/15.0.2/slurmspawner/all/etc/jupyter.rc.int.colorado.edu.crt
 PATH=$PATH:$CURC_JUPYTERHUB_ROOT/Ipython
 export PATH
 
