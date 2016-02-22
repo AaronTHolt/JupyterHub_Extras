@@ -31,7 +31,6 @@ class SLURMEngineSetLauncher(SLURMLauncher, launcher.BatchClusterAppMixin):
     resources = traitlets.Unicode("", config=True)
     default_template = traitlets.Unicode("""#!/bin/sh
 #SBATCH --partition=janus
-#SBATCH --output=/home/$USER
 #SBATCH -N {n}
 #SBATCH --ntasks-per-node=4
 #SBATCH --time=24:00:00
